@@ -1,13 +1,13 @@
-import{Professional}from "./ClaseProfessional.ts"
+
 
 export class Movie{
 
   public title: string;
   public releaseYear: number;
-  public actors: Professional[];
+  public actors: string;
   public nacionality: string;
-  public director: Professional;
-  public writer: Professional;
+  public director: string;
+  public writer: string;
   public language: string;
   public plataforma: string;
   public isMCU: boolean;
