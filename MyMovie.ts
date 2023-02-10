@@ -1,4 +1,4 @@
-
+import{Profesional} from "./ClaseProfessional"
 
 export class Movie{
 

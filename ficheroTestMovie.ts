@@ -1,4 +1,5 @@
 import{Movie} from "./MyMovie"
+import{Profesional} from "./testprofessional"
 
 let pelicula1 : Movie = new Movie("Thelma & Louis",1991,"USA","Comedia")
 
