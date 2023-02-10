@@ -16,12 +16,12 @@ export class Movie{
   public distributor: string;
   public genre: string;
 
-  constructor(title: string,releaseYear: number,genre: string){
+  constructor(title: string,releaseYear: number,genre: string,nacionality: string){
 
      this.title= title;
      this.releaseYear = releaseYear;
      this.actors
-     this.nacionality
+     this.nacionality = nacionality
      this.director
      this.writer
      this.language
