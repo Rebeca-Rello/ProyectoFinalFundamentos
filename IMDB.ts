@@ -2,14 +2,17 @@
 
 class Imdb{
 
-    public peliculas: Movie []
+    public peliculas: []
 
     constructor(){
 
-        this.peliculas =[]
+
+       this.peliculas =[]
+
+       return 
     }
 
-    
+
 
 }
 
