@@ -1,3 +1,4 @@
+"use strict";
 // CrearunaclasedenominadaProfessionalconlossiguientesatributospúblicos:
 // - name: string
 // - age: number
@@ -8,22 +9,11 @@
 // - oscarsNumber: number - profession: string
 // 4. EstaclasedebetenerunconstructorqueincluiráensusparámetrosTODOSestosatributos
 // 5. EstaclasetendráunMÉTODOPUBLICOquemuestreenconsolaelvalordeTODOSsusatributos
-
-export class Professional {
-
-
-        public name: string
-        public age: number
-        public weight: number
-        public height: number
-        public isRetired: boolean
-        public nationality: string
-        public oscarsNumber: number 
-        public profession: string
-
-        constructor (name:string, age: number, weight: number, height: number, isRetired: boolean, nationality: string, oscarsNumber: number, profession: string ){
-
-        this.name= name;
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Professional = void 0;
+var Professional = /** @class */ (function () {
+    function Professional(name, age, weight, height, isRetired, nationality, oscarsNumber, profession) {
+        this.name = name;
         this.age = age;
         this.weight = weight;
         this.height = height;
@@ -31,8 +21,8 @@ export class Professional {
         this.nationality = nationality;
         this.oscarsNumber = oscarsNumber;
         this.profession = profession;
-}
-        public showAtributes (){
+    }
+    Professional.prototype.showAtributes = function () {
         console.log(this.name);
         console.log(this.age);
         console.log(this.weight);
@@ -41,6 +31,7 @@ export class Professional {
         console.log(this.nationality);
         console.log(this.oscarsNumber);
         console.log(this.profession);
-        }
-}
-
+    };
+    return Professional;
+}());
+exports.Professional = Professional;
