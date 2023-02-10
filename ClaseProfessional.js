@@ -1,14 +1,4 @@
 "use strict";
-// CrearunaclasedenominadaProfessionalconlossiguientesatributospúblicos:
-// - name: string
-// - age: number
-// - weight: number
-// - height: number
-// - isRetired: boolean
-// - nationality: string
-// - oscarsNumber: number - profession: string
-// 4. EstaclasedebetenerunconstructorqueincluiráensusparámetrosTODOSestosatributos
-// 5. EstaclasetendráunMÉTODOPUBLICOquemuestreenconsolaelvalordeTODOSsusatributos
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Professional = void 0;
 var Professional = /** @class */ (function () {

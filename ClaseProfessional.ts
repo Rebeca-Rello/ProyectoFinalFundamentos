@@ -1,13 +1,3 @@
-// CrearunaclasedenominadaProfessionalconlossiguientesatributospúblicos:
-// - name: string
-// - age: number
-// - weight: number
-// - height: number
-// - isRetired: boolean
-// - nationality: string
-// - oscarsNumber: number - profession: string
-// 4. EstaclasedebetenerunconstructorqueincluiráensusparámetrosTODOSestosatributos
-// 5. EstaclasetendráunMÉTODOPUBLICOquemuestreenconsolaelvalordeTODOSsusatributos
 
 export class Professional {
 
