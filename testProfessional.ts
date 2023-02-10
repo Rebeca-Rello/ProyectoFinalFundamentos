@@ -41,3 +41,5 @@ director2.showAtributes ();
 writer.showAtributes ();
 writer1.showAtributes ();
 writer2.showAtributes ();
+
+export {actor1, actor2, actriz3, director, director1, director2, writer, writer1, writer2}
