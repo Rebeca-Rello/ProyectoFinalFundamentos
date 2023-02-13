@@ -1,16 +1,18 @@
 
 
-class Imdb{
+import{Movie} from "./MyMovie"
 
-    public peliculas: []
+export class Imdb{
+
+    public peliculas:Movie []
+   
 
     constructor(){
 
+         this.peliculas= []
+         
 
-       this.peliculas =[]
-
-       return 
-    }
+          }
 
 
 
