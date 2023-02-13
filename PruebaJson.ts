@@ -1,10 +1,8 @@
 
 
-import { Imdb } from "./IMDB"
+import { Imdb } from "./IMDb"
 
-import { Movie } from "./MyMovie"
-
-
+import{Movie} from "./MyMovie"
 
 let pelicula1 : Movie = new Movie("Thelma & Louis",1991,"Comedia","USA")
 
@@ -22,7 +20,16 @@ let videoclub = new Imdb ()
 videoclub.peliculas = peliculas
 console.log(videoclub);
 
-console.log('*************JSON*********');
 
 
 
+console.log('**********STRINGIFY*********');
+
+let fs = require ("fs");
+
+let videoclub2 = JSON.stringify(videoclub)
+console.log(videoclub2);
+
+
+fs.writeFileSync("imdbBBDD.json", videoclub2);
+console.log("Datos guardados en imdbBBDD.json");

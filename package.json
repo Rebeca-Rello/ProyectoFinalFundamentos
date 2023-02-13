@@ -1,0 +1,22 @@
+{
+  "name": "proyectofinalfundamentos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ClaseProfessional.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rebeca-Rello/ProyectoFinalFundamentos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rebeca-Rello/ProyectoFinalFundamentos/issues"
+  },
+  "homepage": "https://github.com/Rebeca-Rello/ProyectoFinalFundamentos#readme",
+  "devDependencies": {
+    "@types/node": "^18.13.0"
+  }
+}
