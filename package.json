@@ -18,5 +18,8 @@
   "homepage": "https://github.com/Rebeca-Rello/ProyectoFinalFundamentos#readme",
   "devDependencies": {
     "@types/node": "^18.13.0"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
   }
 }
